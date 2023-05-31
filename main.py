@@ -39,8 +39,8 @@ startamount = getCollection(username, key, profile, collection)
 
 while True:
     total = getCollection(username, key, profile, collection)
-    seastion = total - startamount
+    session = total - startamount
     print("Total ", collection ," collected for ", username, " on ", profile,": ", getCollection(username, key, profile, collection))
-    print("Total ", collection , " this session for ",username," on ",profile,": ", seastion)
+    print("Total ", collection , " this session for ",username," on ",profile,": ", session)
     print("----------------------------------------------------------------------")
     time.sleep(180)
